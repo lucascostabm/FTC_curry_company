@@ -80,7 +80,7 @@ px.bar(df_q1, x = 'Order_Date', y = 'ID')
 #               BARRA LATERAL
 # ======================================================
 
-image_path = '..image/logo.png'
+image_path = 'logo.png'
 image = Image.open(image_path)
 st.sidebar.image(image, width = 120)
 
