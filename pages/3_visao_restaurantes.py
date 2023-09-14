@@ -13,7 +13,7 @@ from streamlit_folium import folium_static
 import numpy as np
 
 
-df = pd.read_csv('..dataset/train.csv')
+df = pd.read_csv('dataset/train.csv')
 
 st.set_page_config(page_title= 'Visão restaurante', layout= 'wide')
 
@@ -73,7 +73,7 @@ df1 = df1.loc[(df1['Festival'] != 'NaN '), :]
 #              BARRA LATERAL
 # ======================================================
 
-image_path = '..image/logo.png'
+image_path = 'logo.png'
 image = Image.open(image_path)
 st.sidebar.image(image, width = 120)
 
