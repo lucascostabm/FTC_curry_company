@@ -73,7 +73,7 @@ df1 = df1.loc[(df1['Festival'] != 'NaN '), :]
 #              BARRA LATERAL
 # ======================================================
 
-image_path = 'image/logo.png'
+image_path = '..image/logo.png'
 image = Image.open(image_path)
 st.sidebar.image(image, width = 120)
 
