@@ -11,7 +11,7 @@ import streamlit as st
 from PIL import Image
 from streamlit_folium import folium_static
 
-df = pd.read_csv('..dataset/train.csv')
+df = pd.read_csv('dataset/train.csv')
 st.set_page_config(page_title= 'Visão empresa', layout= 'wide')
 
 
